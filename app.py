@@ -71,7 +71,7 @@ def add_bg_and_styling():
 add_bg_and_styling()
 
 # --- Constants & Fun Facts ---
-MODEL_PATH = 'dog_cat_classifier (1).h5'
+MODEL_PATH = 'dog_cat_classifier.h5'
 CLASS_NAMES = ['Cat', 'Dog']
 CAT_FACTS = [
     "A group of cats is called a clowder.",
