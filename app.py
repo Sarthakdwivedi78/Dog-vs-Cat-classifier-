@@ -214,7 +214,7 @@ with tab2:
         for i, file in enumerate(uploaded_files):
             with cols[i % 4]:
                 # Use use_container_width as per the warning
-                st.image(file, use_container_width=True)
+                st.image(file, use_column_width=True)
                 with st.spinner("..."):
                     _, label, confidence = predict(file)
                     if label:
